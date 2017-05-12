@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        alert("SORRY " + "TRY AGAIN");
+    });
+    $("#btn2").click(function(){
+        alert("PAY ATTENTION!!!");
+    });
+     $("#btn3").click(function(){
+        alert("CONGRATULATIONS!!!");
+    });
+     $("#btn4").click(function(){
+        alert("NO NO NO");
+    });
+     $("#btn5").click(function(){
+        alert("NOPE");
+    });
+    $("#btn3").click(function(){
+        $("div").animate({left: '250px'});
+    }); 
+});
+</script>
+</head>
+<body>
+
+<p id="test">ARE YOU FEELING LUCKY??</p>
+    <h1>RIDDLE</h1>
+    <p> If teresa's daughter is my daughter's mother, what am to teresa?!</p>
+
+<button id="btn1">Grandmother</button>
+<button id="btn2">Mother</button>
+<button id="btn3">Daughter</button>
+<button id="btn4">Granddaughter</button>
+<button id="btn5">I am Teresa</button>  
+
+    <div style="background:#000000;height:100px;width:400px;position:absolute;"></div>
+</body>
+</html>
